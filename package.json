@@ -1,0 +1,40 @@
+{
+  "name": "@coinvestingdefi/dex-default-token-list",
+  "version": "1.0.0",
+  "description": "Default token list used in the Coinvesting DeFi Dex interface.",
+  "author": "Coinvesting DeFi",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coinvesting-DeFi/coinvesting-defi-dex-default-token-list.git"
+  },
+  "keywords": [
+    "Coinvesting",
+    "default",
+    "DeFi",
+    "Dex",
+    "list",
+    "token"
+  ],  
+  "bugs": {
+    "url": "https://github.com/Coinvesting-DeFi/coinvesting-defi-dex-default-token-list/issues"
+  },
+  "homepage": "https://github.com/Coinvesting-DeFi/coinvesting-defi-dex-default-token-list#readme",
+  "scripts": {
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/coinvesting-default.tokenlist.json",
+    "test": "mocha",
+    "prepublishOnly": "yarn build && yarn test "
+  },
+  "files": [
+    "build/coinvesting-default.tokenlist.json"
+  ],
+  "main": "build/coinvesting-default.tokenlist.json",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@uniswap/token-lists": "^1.0.0-beta.8",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
