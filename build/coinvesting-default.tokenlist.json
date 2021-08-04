@@ -1,13 +1,13 @@
 {
   "name": "Coinvesting DeFi Default List",
-  "timestamp": "2021-06-05T21:51:47.704Z",
+  "timestamp": "2021-08-04T05:14:53.983Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   },
   "tags": {},
-  "logoURI": "ipfs://QmagApuiV95Ggjxu1P1yBVB1kzx8nwpxDfyQ76Wt2mRnPx",
+  "logoURI": "ipfs://QmPYHNFVCWuWdkYAdgLhbeAPDN7AL9Bs7DVaUHzv2puC64",
   "keywords": [
     "coinvesting",
     "default"
@@ -67,7 +67,7 @@
       "symbol": "COINVEX",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "ipfs://QmagApuiV95Ggjxu1P1yBVB1kzx8nwpxDfyQ76Wt2mRnPx"
+      "logoURI": "ipfs://QmPYHNFVCWuWdkYAdgLhbeAPDN7AL9Bs7DVaUHzv2puC64"
     },
     {
       "name": "Compound",
@@ -331,7 +331,7 @@
       "symbol": "COINVEX",
       "decimals": 18,
       "chainId": 3,
-      "logoURI": "ipfs://QmagApuiV95Ggjxu1P1yBVB1kzx8nwpxDfyQ76Wt2mRnPx"
+      "logoURI": "ipfs://QmPYHNFVCWuWdkYAdgLhbeAPDN7AL9Bs7DVaUHzv2puC64"
     },
     {
       "name": "Dai Stablecoin",
@@ -411,7 +411,7 @@
       "symbol": "COINVEX",
       "decimals": 18,
       "chainId": 42,
-      "logoURI": "ipfs://QmagApuiV95Ggjxu1P1yBVB1kzx8nwpxDfyQ76Wt2mRnPx"
+      "logoURI": "ipfs://QmPYHNFVCWuWdkYAdgLhbeAPDN7AL9Bs7DVaUHzv2puC64"
     },
     {
       "name": "Dai Stablecoin",

@@ -16,7 +16,7 @@ module.exports = function buildList() {
       patch: +parsed[2],
     },
     tags: {},
-    logoURI: "ipfs://QmagApuiV95Ggjxu1P1yBVB1kzx8nwpxDfyQ76Wt2mRnPx",
+    logoURI: "ipfs://QmPYHNFVCWuWdkYAdgLhbeAPDN7AL9Bs7DVaUHzv2puC64",
     keywords: ["coinvesting", "default"],
     tokens: [...mainnet, ...ropsten, ...goerli, ...kovan, ...rinkeby]
       // sort them by symbol for easy readability
